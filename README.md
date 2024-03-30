@@ -4,6 +4,31 @@
 
 This guide provides step-by-step instructions on how to use Hashcat, a popular password cracking tool, to crack passwords. By following these instructions, you can assess the strength of your organization's password security and identify potential vulnerabilities.
 
+## Introduction to Hashcat
+
+Hashcat is a powerful and versatile password cracking tool used by cybersecurity professionals, penetration testers, and security researchers to assess the strength of password security implementations. It is renowned for its speed, efficiency, and extensive range of supported hash algorithms, making it a preferred choice for password auditing and recovery tasks.
+
+### Key Features
+
+- **Wide Range of Hash Algorithms**: Hashcat supports various hash algorithms, including MD5, SHA-1, SHA-256, bcrypt, and many others, allowing it to crack passwords stored in different formats and systems.
+
+- **Multiple Attack Modes**: Hashcat offers multiple attack modes, such as dictionary attacks, brute-force attacks, and rule-based attacks, enabling users to tailor their cracking techniques based on the specific scenario and available resources.
+
+- **High Performance**: With its highly optimized codebase and support for GPU acceleration, Hashcat can achieve remarkable cracking speeds, significantly reducing the time required to crack passwords compared to traditional methods.
+
+- **Extensive Wordlist Support**: Users can leverage pre-existing wordlists or create custom wordlists containing potential passwords. Hashcat seamlessly integrates with wordlists, enabling efficient dictionary attacks.
+
+- **Rule Engine**: Hashcat features a flexible rule engine that allows users to apply custom transformations and manipulations to wordlists, enhancing the effectiveness of dictionary attacks.
+
+### Use Cases
+
+- **Password Auditing**: Organizations use Hashcat to audit the strength of passwords stored in their systems, identifying weak or compromised credentials that may pose security risks.
+
+- **Penetration Testing**: Security professionals and penetration testers leverage Hashcat during security assessments to evaluate the resilience of client systems against password-based attacks and identify potential entry points for attackers.
+
+- **Password Recovery**: Hashcat assists users in recovering forgotten or lost passwords, such as encrypted files or password-protected documents, by attempting to crack the passwords using various techniques.
+
+
 ## Prerequisites
 
 Before getting started, ensure you have the following:
