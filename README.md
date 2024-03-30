@@ -35,7 +35,7 @@ Before getting started, ensure you have the following:
 
 - **Hashcat**: Download and install Hashcat on your system. You can find installation instructions for various operating systems on the [Hashcat website](https://hashcat.net/hashcat/).
 
-- **Hashed Passwords**: Obtain the hashed passwords that you want to crack. These hashes can be obtained from password dumps or security assessments. You can use the [newhash.hash](newhash.hash) file for example or you can obtain any hash files form different resources.
+- **Hashed Passwords**: Obtain the hashed passwords that you want to crack. These hashes can be obtained from password dumps or security assessments. You can use the [example1.hash](example1.hash) file for example or you can obtain any hash files form different resources.
 
 - **Wordlist (Optional)**: Optionally, you can create or obtain a wordlist containing potential passwords. Hashcat uses wordlists for dictionary attacks.You can use the [example.dict](example.dict) file or create your own or obtain one from different available resources.
 
